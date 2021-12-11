@@ -33,6 +33,9 @@ ThemeKit works by extending UIView. So, anything built on UIView can use ThemeKi
         //Apply a gradient
         view.gradient()
         
+        //Optionally you can customize the properties of the gradient
+        view.gradient(startColor: "#2d3436", endColor: "#2c3e50")
+        
         //Change view's color using a hex value
         view1.color(hex: "#0984e3")
         
