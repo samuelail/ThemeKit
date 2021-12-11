@@ -1,6 +1,6 @@
 # ThemeKit
 
-[![CI Status](https://img.shields.io/travis/Samuel Ailemen/ThemeKit.svg?style=flat)](https://travis-ci.org/Samuel Ailemen/ThemeKit)
+[![CI Status](https://img.shields.io/travis/SamuelAilemen/ThemeKit.svg?style=flat)](https://travis-ci.org/SamuelAilemen/ThemeKit)
 [![Version](https://img.shields.io/cocoapods/v/ThemeKit.svg?style=flat)](https://cocoapods.org/pods/ThemeKit)
 [![License](https://img.shields.io/cocoapods/l/ThemeKit.svg?style=flat)](https://cocoapods.org/pods/ThemeKit)
 [![Platform](https://img.shields.io/cocoapods/p/ThemeKit.svg?style=flat)](https://cocoapods.org/pods/ThemeKit)
