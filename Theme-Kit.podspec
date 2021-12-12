@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ThemeKit'
+  s.name             = 'Theme-Kit'
   s.version          = '0.1.0'
   s.summary          = 'A lightweight UI library for Swift.'
   s.swift_version = '4.0'
