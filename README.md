@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/ThemeKit.svg?style=flat)](https://cocoapods.org/pods/ThemeKit)
 [![Platform](https://img.shields.io/cocoapods/p/ThemeKit.svg?style=flat)](https://cocoapods.org/pods/ThemeKit)
 
+# Screenshot
+![Iphone](https://github.com/samuelail/ThemeKit/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%2012%20-%202021-12-11%20at%2019.41.49.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
