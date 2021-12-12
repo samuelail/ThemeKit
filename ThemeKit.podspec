@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'ThemeKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ThemeKit.'
+  s.summary          = 'A lightweight UI library for Swift.'
+  s.swift_version = '4.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,16 +18,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'A lightweight swift library that lets you simplify otherwise complex UI elements and animations.'
 
-  s.homepage         = 'https://github.com/Samuel Ailemen/ThemeKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.homepage         = 'https://github.com/samuelail/ThemeKit'
+  s.license      = 'MIT'
+  s.screenshots     = 'https://github.com/samuelail/ThemeKit/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%2012%20-%202021-12-11%20at%2019.41.49.png?raw=true'
+  #s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Samuel Ailemen' => 'samuel@verified.ly' }
-  s.source           = { :git => 'https://github.com/Samuel Ailemen/ThemeKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/samuelail/ThemeKit.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/kingjulian_i'
 
   s.ios.deployment_target = '9.0'
 
