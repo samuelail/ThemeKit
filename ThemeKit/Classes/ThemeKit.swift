@@ -17,6 +17,25 @@ public class ThemeKit {
         AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
     }
     
+    public class func feedback(type: feedbackType = .success, closure: @escaping () -> Void) {
+        let generator = UINotificationFeedbackGenerator()
+        switch type {
+        case .success:
+            generator.notificationOccurred(.success)
+        case .warning:
+            generator.notificationOccurred(.warning)
+        case .error:
+            generator.notificationOccurred(.error)
+        }
+        closure()
+    }
+    
+   public enum feedbackType {
+        case success
+        case warning
+        case error
+    }
+    
 }
 
 public extension UIView {

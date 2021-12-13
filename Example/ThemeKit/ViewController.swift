@@ -76,8 +76,12 @@ class ViewController: UIViewController {
     
     @IBAction func buttonClicked(_ sender: Any) {
         //Make device vibrate
-        ThemeKit.vibrate() { [weak self] in
-            self?.animateView()
+//        ThemeKit.vibrate() { [weak self] in
+//            self?.animateView()
+//        }
+        
+        ThemeKit.feedback {
+            print("feedback")
         }
     }
     
