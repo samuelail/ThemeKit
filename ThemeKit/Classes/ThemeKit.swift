@@ -72,19 +72,6 @@ public extension UIView {
         
         lazy var gradient: CAGradientLayer = {
             let gradient = CAGradientLayer()
-           // gradient.type = .radial
-//            switch direction {
-//            case .radial:
-//                print("Radial")
-//              //  gradient.type = .radial
-//            case .conic:
-//                print("Conic")
-//             //   gradient.type = .conic
-//            case .axial:
-//                print("Axial")
-//             //   gradient.type = .axial
-//            }
-            
             gradient.colors = [
                 UIColor(
                     red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
@@ -107,7 +94,7 @@ public extension UIView {
         layer.insertSublayer(gradient, at: 0)
     }
     
-    enum directionn {
+    enum direction {
        case radial
        case conic
        case axial

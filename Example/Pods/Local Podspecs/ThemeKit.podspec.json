@@ -1,0 +1,22 @@
+{
+  "name": "ThemeKit",
+  "version": "0.1.0",
+  "summary": "A short description of ThemeKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Samuel Ailemen/ThemeKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Samuel Ailemen": "samuel@verified.ly"
+  },
+  "source": {
+    "git": "https://github.com/Samuel Ailemen/ThemeKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ThemeKit/Classes/**/*"
+}
