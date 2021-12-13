@@ -108,7 +108,6 @@ public extension UIView {
         } else if radius > 0.0 {
             layer.cornerRadius = radius
         }
-        //clipsToBounds = true
       var cornerMask = CACornerMask()
         switch corners {
         case .topLeft:
