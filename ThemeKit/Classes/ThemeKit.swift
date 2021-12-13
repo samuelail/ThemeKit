@@ -18,6 +18,7 @@ public class ThemeKit {
     }
     
     public class func feedback(type: feedbackType = .success, closure: @escaping () -> Void) {
+        if #available(iOS 10.0, *) {
         let generator = UINotificationFeedbackGenerator()
         switch type {
         case .success:
@@ -26,6 +27,7 @@ public class ThemeKit {
             generator.notificationOccurred(.warning)
         case .error:
             generator.notificationOccurred(.error)
+        }
         }
         closure()
     }
